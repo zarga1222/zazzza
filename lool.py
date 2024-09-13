@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # Load the historical draw data
 # Assume the CSV file has columns: 'Draw_Number', 'Number1', 'Number2', 'Number3', 'Number4', 'Number5', 'Number6'
-df = pd.read_csv('south_korea_lotto.csv')
+df = pd.read_csv('/home/mtirbelkaid/.local/bin:/opt/gradle/bin:/opt/maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/go/bin:/usr/local/node_packages/node_modules/.bin:/usr/local/rvm/bin:/google/go_appengine:/google/google_appengine:/home/mtirbelkaid/.gems/bin:/usr/local/rvm/bin:/home/mtirbelkaid/gopath/bin:/google/gopath/bin:/google/flutter/bin:/usr/local/nvm/versions/node/v20.17.0/bin south_korea_lotto.csv.csv')
 
 # Frequency Analysis
 def frequency_analysis(df):
